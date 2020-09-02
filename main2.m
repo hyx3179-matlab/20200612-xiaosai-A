@@ -1,9 +1,9 @@
 % 默认不计算，直接载入数据  swyj_index II级升级为I级的索引
 % 计算 设 js 为非零，计算时间 i7-7700hq 200秒左右
 clear
-load('matlab.mat')
-load('main2_sj.mat')
-js=0;
+load('matlab.data.mat')
+% load('main2_sj.mat')
+js=1;
 
 if js
     tt=length(data);

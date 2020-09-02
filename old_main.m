@@ -1,4 +1,4 @@
-load('matlab.mat')
+load('matlab.data.mat')
 data1=data;
 % data=[yj;data];
 n=zeros(length(data),1);

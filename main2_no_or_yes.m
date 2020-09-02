@@ -1,6 +1,6 @@
 % 默认不计算，直接载入数据,
 clear
-load('matlab.mat')
+load('matlab.data.mat')
 
 tt=length(data);
 
